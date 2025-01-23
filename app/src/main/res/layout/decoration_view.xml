@@ -2,7 +2,9 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="100dp"
+    android:layout_alignParentEnd="true"
     android:id="@+id/decoration"
+    android:background="@android:color/holo_green_light"
     android:contentDescription="@string/default_avatar"
     android:scaleType="centerCrop"
     android:src="@drawable/ic_launcher_foreground" />
